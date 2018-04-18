@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>属性绑定和双向数据绑定</title>
+	<link rel="stylesheet" href="">
+	<script src="vue.js"></script>
+</head>
+<body>
+	<div id="root">
+		属性绑定：
+		<div v-bind:title="'v-bind'+title">加了v-bind后，双引号里的内容变成js表达式</div>
+		<div :title="'缩写'+title">"v-bind："可直接缩写成":"</div>
+
+		<h3>双向数据绑定</h3>
+		<input v-model="content">
+		<div>{{content}}</div>
+	</div>
+	<script>
+		new Vue({
+			el:"#root",
+			data:{
+				title:"this is data-title",
+				content:"v-model模版指令双向数据绑定"
+			}
+		})
+	</script>
+</body>
+</html>
