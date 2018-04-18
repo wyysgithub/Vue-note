@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>一个简单的VUE页面</title>
+	<link rel="stylesheet" href="">
+	<script src="vue.js"></script>
+</head>
+<body>
+	<div id="root">{{msg}}</div>
+
+	<script>
+		new Vue({ //首字母必须大写
+			el:"#root", //绑定、接管、挂载点 root
+			data:{
+				msg:"hello vue"
+			}
+		})
+	</script>
+</body>
+</html>
