@@ -4,6 +4,7 @@
 
 首次尝试：
 
+<<<<<<< HEAD
 文件：[index.html](https://github.com/wyysgithub/Vue-note/blob/master/index.html)
 
 ![](https://github.com/wyysgithub/Vue-note/blob/master/img/helloVue.png)
@@ -33,3 +34,9 @@
 
 * 使用@绑定
 
+=======
+![](https://github.com/wyysgithub/Vue-note/blob/master/img/helloVue.png)
+
+
+
+>>>>>>> 22bf1332deb6adf06055877dc08eb3675bbaa7af
