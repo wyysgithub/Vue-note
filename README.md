@@ -1,6 +1,7 @@
 # Vue 学习笔记
 
-.[官方文档].(https://cn.vuejs.org)
+[官方文档](https://cn.vuejs.org)
+![](https://github.com/wyysgithub/Vue-note/img/helloVue.png)
 
 
 > npm install -g cnpm --registry=https://registry.npm.taobao.org
