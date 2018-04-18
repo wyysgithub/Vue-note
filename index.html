@@ -8,13 +8,31 @@
 	<script src="vue.js"></script>
 </head>
 <body>
-	<div id="root">{{msg}}</div>
+	<!-- 挂载点、模版、实例之间的关系 -->
+	<div id="root">
+		<h1>插值表达式：{{msg}}</h1>
+		<div v-text="h"></div>
+		<h1 v-html="h"></h1>
+		标签加v-text或者v-html属性绑定data中的常量；
+		<div v-on:click="handle">{{von}}</div>
+		<div @click="handle">{{von2}}</div>
+	</div>
 
 	<script>
 		new Vue({ //首字母必须大写
 			el:"#root", //绑定、接管、挂载点 root
+			/*template:"<h1>hello {{msg}}</h1>",*/ //模版
 			data:{
-				msg:"hello vue"
+				msg:"hello vue",
+				h:'<h1>v-text和v-html区别在于转译</h1>',
+				von:"用于绑定事件",
+				von2:"v-on可简写成@"
+			},
+			methods:{//用于定义函数
+				handle:function(){
+					this.msg="你完成了this.msg改变数据"
+					alert(this.von);
+				}
 			}
 		})
 	</script>
