@@ -25,7 +25,7 @@
 
 #### 4，使用methods定义函数。
 
-**函数中可以用this.msg修改data中的数据，Vue会自主更新**
+`函数中可以用this.msg修改data中的数据，Vue会自主更新`
 
 #### 5，绑定事件
 
@@ -83,13 +83,17 @@
 
 #### 2，v-for 循环遍历
 
-> <li v-for="(item,index) of list" :key="index">{{item}}</li>
+```html
+<li v-for="(item,index) of list" :key="index">{{item}}</li>
+```
 
 * v-for 需设置遍历所用的key，key值也可直接使用item，但在数组内有相同元素的时候不适用，所以用index数组角标做key。
 
 使用 v-for="item in list"  或者 v-for="item of list" 进行遍历
 
 使用list:list:[{n:1},{n:2},{n:3},{n:4},{n:5},{n:6}] 时为了方便扩展， 更贴近实际项目需求。
+
+https://blog.csdn.net/wngzhem/article/details/53218021
 
 
 
