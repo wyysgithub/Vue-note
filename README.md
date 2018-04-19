@@ -9,7 +9,7 @@
 ![](https://github.com/wyysgithub/Vue-note/blob/master/img/helloVue.png)
 
 
-##知识点总结：
+## 知识点总结：
 
 #### 1，使用el通过元素id挂载DOM。
 
@@ -21,7 +21,7 @@
 
 * 使用v-text和v-html引入数据
 
-> v-text 会转译 v-html 不会
+`v-text 会转译 v-html 不会`
 
 #### 4，使用methods定义函数。
 
@@ -41,11 +41,11 @@
 
 ![](https://github.com/wyysgithub/Vue-note/blob/master/img/index2-4.png)
 
-2-4 ##知识点总结：
+## 2-4 知识点总结：
 
 #### 1，使用v-bind绑定属性
 
-> "v-bind："可直接缩写成":"
+`"v-bind："可直接缩写成":"`
 
 #### 2，使用v-model双向绑定。
 
@@ -56,7 +56,7 @@
 
 ![](https://github.com/wyysgithub/Vue-note/blob/master/img/index2-5.png)
 
-2-5 ##知识点总结：
+## 2-5 知识点总结：
 
 #### 1，使用computed定义计算属性
 
@@ -70,7 +70,7 @@
 
 ![](https://github.com/wyysgithub/Vue-note/blob/master/img/index2-6.png)
 
-2-6 ##知识点总结：
+## 2-6 知识点总结：
 
 #### 1，隐藏元素
 
